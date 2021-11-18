@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CCAIMAG |CEO </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+ <link rel="icon" href="images/favicon.png" type="image/x-icon">
+ <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,400%7cCourgette%7cRoboto:400,500,700%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+ <link href="css/responsive.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/skins/green.css">
+ <style media="screen">
+   .fond-noir{
+     background-color: rgba(0, 0, 0, 0.5);
+     height: 100%;
+     padding: 10%;
+   }
+   .page-title{
+     padding: 0;
+     height: 350px;
+   }
+   .btn{
+     border-radius: 1px;
+     margin-top: 5px;
+   }
+ </style>
+</head>
+
+<body>
+ <div class="page-wrapper">
+    <div class="page-wrapper">
+       <div class="preloader">
+          <h1>LA CHAMBRE DE COMMERCE<br>DU GABON</h1>
+       </div>
+             <div class="header-top-bar">
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-2">
+                         <div class="login">
+                            <ul>
+                               <li class="top-li"><a id="llogin" href="contact.html"><span class="ti-unlock">Nous contacter</span></a></li>
+                               <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog modal-lg">
+                                     <div class="modal-content">
+                                            <div class="dialog-inner">
+                                               <form action="" method="post" class="account login-form">
+                                                  <fieldset>
+                                                     <h2 class="text-center">Espace membre</h2>
+                                                     <p><input type="text" class="form-control" name="email" id="user_login" placeholder="Adresse Email *" required="" autocomplete="off"></p>
+                                                     <input type="hidden" name="_token" value="In22gJGSlSDpbYOaySW1nOa72ViA5rWfvoByM1J6">
+                                                     <p><input type="password" class="form-control" name="password" id="user_pass" placeholder="Mot de passe *" required="" autocomplete="off"></p>
+                                                     <p class="text-center">
+                                                        <button class="button" type="submit"><a href="actus.html">Me connecter</a></button>
+                                                     </p>
+                                                     <hr>
+                                                     <p class="text-center">Pas encore membre ? <a href="inscription.html#">Inscrivez-vous dès maitenant.</a></p>
+                                                  </fieldset>
+                                               </form>
+                                            </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </ul>
+                         </div>
+                      </div>
+                      <div class="col-md-2">
+                         <div class="login">
+                            <ul>
+                               <li class="top-li"><a href="forum.html"><span class="ti-unlock">Forum</span></a></li>
+                            </ul>
+                         </div>
+                      </div>
+                      <div class="col-md-6">
+                         <div class="nav-icon-wrap">
+                            <div class="search-wrap"> <i class="fa fa-search"></i>
+                               <div class="search-form-wrap">
+                                  <form class="search-form"> <input type="search" name="search" value="" placeholder="Search..."> <input type="submit" name="submit" value="Search"></form>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="col-md-2">
+                         <div class="header-top-social text-center"> <a href="https://www.facebook.com/ccaimagabon/"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+       <section class="header-top">
+          <div class="container clearfix">
+             <div class="left-side pull-left">
+                <div class="logo"><img src="images/logo.jpg" alt=""></div>
+             </div>
+             <ul class="right-side pull-right clearfix row">
+               <li class="item"  id="connect" class="adhesion" data-login="loginDialog">
+                <a class="adhesion" ><i class="fa fa-user"></i><span class="ti-unlock" data-toggle="modal" data-target=".bd-example-modal-lg">Espace adhérents</span></a>
+               </li>
+                <li class="item" id="addto" class="adhesion" data-login="loginDialog">
+                 <a href="adhesion.html"><i class="fa fa-user"></i><span class="ti-unlock">Adhérer</span></a>
+                </li>
+             </ul>
+          </div>
+       </section>
+       <header class="main-header sticky-header">
+          <div class="container clearfix">
+             <nav class="main-menu">
+                <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div>
+                <div class="navbar-collapse collapse clearfix">
+                   <ul class="navigation clearfix">
+                      <li class="current"><a href="index.html">Accueil</a>
+                      </li>
+                      <li class="dropdown"><a href="service.html">La CCAIMAG</a>
+                         <ul>
+                            <li><a href="presentation.html">Présentations</a></li>
+                            <li><a href="#">Missions</a></li>
+                            <li><a href="http://www.ccima.cm/phocadownload/organigramme%20schmatique%20ccima.pdf" target="_blank">Organigramme</a></li>
+                            <li><a href="mediatheque.html">Mediatheque</a></li>
+                         </ul>
+                      </li>
+                      </li>
+                      <li class="dropdown"><a href="about.html">Services</a>
+                         <ul>
+                            <li><a href="#">Assistance</a></li>
+                            <li><a href="service.html">Projet BSTPG</a></li>
+                            <li><a href="#">Projet CGA.GA</a></li>
+                            <li><a href="#">Projet CAMCGA</a></li>
+                         </ul>
+                      </li>
+                        <li class="dropdown"><a href="#">Espace vente</a>
+                          <ul>
+                            <li><a href="espace.html">Espaces a louer</a></li>
+                            <li><a href="ceo.html">Certificat d'origine</a></li>
+                          </ul>
+                        </li>
+                      <li class="dropdown"><a href="#">Profils</a>
+                         <ul>
+                            <li><a href="actus.html">Entreprises</a></li>
+                            <li><a href="#">Jeunes diplomes</a></li>
+                         </ul>
+                      </li>
+                      <li class="dropdown"><a href="blog.html">Investir au Gabon</a>
+                         <ul>
+                            <li><a href="#">Le Gabon en bref</a></li>
+                            <li><a href="#">Environnement juridique</a></li>
+                            <li><a href="#">Procédures import/export</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="database.html">Base de données</a></li>
+                         </ul>
+                      </li>
+                      <li><a href="actus.html">Actualités</a></li>
+                       <li class="dropdown"><a href="#">Notre reseau</a>
+                          <ul>
+                            <li><a href="#">ANPI</a></li>
+                            <li><a href="#">Chambres de commerce internationales</a></li>
+                            <li><a href="#">Ministeres du commerce</a></li>
+                            <li><a href="#">ONG</a></li>
+                          </ul>
+                       </li>
+                   </ul>
+                </div>
+             </nav>
+          </div>
+       </header>
+    <!--End Main Header -->
+
+
+    <!--Page Title-->
+    <section class="page-title" style="background: url(images/lbv.jpg);">
+        <div class="container">
+            <div class="text text-center">
+                <h2>Certificat d'origine</h2>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+
+    <!-- Service Details -->
+    <section class="service-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="right-side">
+                        <ul class="categori-list">
+                            <li><a href="#">Composition du certificat d’origine</a></li>
+                            <li><a href="#">Visa du certificat d’Origine par la CCAIMAG</a></li>
+                            <li><a href="#">Comment remplir un certificat d’origine?</a></li>
+                            <li><a href="#">Quel sont les pièces à fournir ?</a></li>
+                            <li><a href="#">Responsabilité de l’exportateur</a></li>
+                            <li><a href="#">Les pays nécessitant la présentation du certificat d’origine</a></li>
+                        </ul>
+                        <div class="service-testimonials">
+                            <div class="single-item-carousel">
+                                <div class="item text-center">
+                                    <div class="image">
+                                        <figure>
+                                            <img src="images/tamtam.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="text">
+                                        <!-- <p>“ The Love Boat promises some- thing for every the beat of the ship set ground on others set ground on others comfortable. ”</p> -->
+                                        <strong>
+                                            <!-- -  Allied  - -->
+                                        </strong>
+                                    </div>
+                                </div>
+
+                                <div class="item text-center">
+                                    <div class="image">
+                                        <figure>
+                                            <img src="images/mask.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="text">
+                                        <!-- <p>“ The Love Boat promises some- thing for every the beat of the ship set ground on others set ground on others comfortable. ”</p> -->
+                                        <strong>
+                                            <!-- -  Allied  - -->
+                                        </strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-text">
+                            <ul class="contact-links">
+                                <li class="item">
+                                    <div class="icon-box">
+                                        <i class="flaticon-signs"></i>
+                                    </div>
+                                    <!-- <p>290A, Allied, Texaas, <br>United States.</p> -->
+                                </li>
+                                <li class="item">
+                                    <div class="icon-box">
+                                        <i class="flaticon-message"></i>
+                                    </div>
+                                    <a href="#"><p>contact@cci-gabon.com</p></a>
+                                </li>
+                                <li class="item">
+                                    <div class="icon-box">
+                                        <i class="flaticon-technology-2"></i>
+                                    </div>
+                                    <p>+241-01-72-20-64</p>
+                                </li>
+                                <li class="doc-btn">
+                                    <a href="#"><i class="fa fa-file-word-o" aria-hidden="true"></i>Télechargez Doc</a>
+                                    <a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Téléchargez PDF</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                    <div class="left-side">
+                        <div class="image-holder clearfix">
+                            <div class="image-box">
+                                <figure>
+                                    <img src="images/mask2.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="text-title">
+                                <h6>CERTIFICAT D’ORIGINE</h6>
+                            </div>
+
+                        </div>
+                        <div class="text">
+                            <p>CERTIFICAT D’ORIGINE
+
+                                Le certificat d’origine : est une des formalités du commerce
+                                international les plus en vogues de nos jours notamment au Gabon qui
+                                a signé une panoplie d’accords de libre échange. La vocation de ce certificat
+                                 est d’avérer l’origine d’une marchandise, plus précisément, son pays de fabrication.
+                                  Emis et authentifié sur la base d’un document normalisé, par les chambres de commerce
+                                  dustrie et de services, ce rôle a été consacré parles conventions internationales depuis
+                                   près d’un siècle.<br> Il es utlisé dans plusieurs cas:</p>
+                                   <ul>
+                                       <li>-Lorsqu’il est exigé par les services douaniers du pays de destination (pour la vérification de quotas par exemple)
+                                       </li>
+                                       <li>-Lorsqu’un paiement se fait par crédit documentaire.</li>
+                                       <li>-Si l’acheteur le demande même s’il n’est pas demandé par la douane du pays de destination</li>
+                                   </ul>
+
+                        </div>
+                        <div class="image-text">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-xs-12">
+                                    <h6>1. COMPOSITION DU CERTIFICAT D’ORIGINE :</h6>
+                                    <p>Le certificat d’origine est composé des feuillets suivants :</p>
+
+                                    <ul>
+                                        <li>-L’original de couleur blanche.</li>
+                                        <li>-Copie 1 de couleur blanche.</li>
+                                        <li>-Copie 2 de couleur blanche.</li>
+                                        <li>-La demande de couleur verte.</li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="col-sm-6 col-md-6 col-xs-12">
+                                    <div class="image-box">
+                                        <figure>
+                                            <img src="images/services/7.jpg" alt="">
+                                        </figure>
+                                        <div class="text">
+                                            <p>Whether you require simply deplete cleaning or a whole pipes registration, call our group of qualified and talented handymen. we take pride in the work we perform qualified and tale nted handymen. we take pride.Whether you require simply deplete cleaning or a whole pipes registration, call our group of qualified and talented handymen.</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col-sm-6 col-md-6 col-xs-12">
+                                    <div class="image-box">
+                                        <figure>
+                                            <img src="images/services/7.jpg" alt="">
+                                        </figure>
+                                        <div class="text">
+                                            <p>Whether you require simply deplete cleaning or a whole pipes registration, call our group of qualified and talented handymen. we take pride in the work we perform qualified and tale nted handymen. we take pride.Whether you require simply deplete cleaning or a whole pipes registration, call our group of qualified and talented handymen.</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+
+                        <!-- <div class="accordion-box">
+                            <!--Start single accordion box-->
+                            <!-- <div class="accordion accordion-block"> -->
+                                <!-- <div class="accord-btn"><h6>Top 10 Books about Starting a Business</h6></div> -->
+                                <!-- <div class="accord-content"> -->
+                                    <!-- <p>Buzz partner network iPad incubator virality accelerator infrastructure leverage beta sales deployment product management. Seed money interaction design crowdfunding customer entrepreneur hackathon infrastructure angel investor virality mass market lroject return on investment. </p> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                            <!--End single accordion box-->
+
+                            <!-- Start single accordion box-->
+                            <!-- <div class="accordion accordion-block"> -->
+                                <!-- <div class="accord-btn active"><h6>We have launched our Germany business guide</h6></div> -->
+                                <!-- <div class="accord-content collapsed"> -->
+                                    <!-- <p>Buzz partner network iPad incubator virality accelerator infrastructure leverage beta sales deployment product management. Seed money interaction design crowdfunding customer entrepreneur hackathon infrastructure angel investor virality mass market lroject return on investment. </p> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                            <!--End single accordion box -->
+
+                            <!-- Start single accordion box-->
+                            <!-- <div class="accordion accordion-block"> -->
+                                <!-- <div class="accord-btn"><h6>Write a Direct Sales Business Plan</h6></div> -->
+                                <!-- <div class="accord-content"> -->
+                                    <!-- <p>Buzz partner network iPad incubator virality accelerator infrastructure leverage beta sales deployment product management. Seed money interaction design crowdfunding customer entrepreneur hackathon infrastructure angel investor virality mass market lroject return on investment.</p> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                            <!--End single accordion box-->
+
+
+
+                            <div class="col-sm-12 col-md-12 col-xs-12">
+                                <h6> 2. VISA DU CERTIFICAT D’ORIGINE PAR LA CCAIMAG</h6>
+                                <p>L’imprimé du certificat d’origine, une fois rempli par l’expéditeur, est soumis au visa de la Chambre de Commerce de l'agriculture de l’Industrie, des mines et de services de l'artisanat, dont les services dédiés s’assurent :</p>
+
+                                <ul>
+                                    <li>-que l’entreprise a bien son siège social dans la circonscription de la CCISCS, sur la vérification du Registre du Commerce.</li>
+                                    <li>-que toutes les rubriques sont remplies selon les règles en vigueur.</li>
+                                    <li>-que l’origine déclarée est bien celle des marchandises décrites sur le certificat. Les renseignements figurant au verso de la demande (imprimé vert) et les pièces jointes au dossier permettent ce contrôle. La Chambre de Commerce et d’Industrie peut, chaque fois qu’elle le juge nécessaire, exiger des pièces supplémentaires justificatives de l’origine</li>
+
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-xs-12">
+                                <h6>3. COMMENT REMPLIR UN CERTIFICAT D’ORIGINE?:</h6>
+
+                                <ul>
+                                    <li>-l est préférable que ces documents soient complétés à la machine.</li>
+                                    <li>-Les certificats doivent être rédigés dans l’une des langues officielles.</li>
+                                    <li>-Les certificats ne doivent comporter ni grattage ni surcharge..</li>
+                                    <li>-Si l’expédition comprend des marchandises d’origine différentes, présenter une liasse Certificat d’Origine par Origine.</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 col-xs-12">
+                                <h6>4. QUEL SONT LES PIÈCES À FOURNIR ?</h6>
+                                <p>Les Pièces constitutives du dossier juridique sont comme suit:</p>
+
+                                <ul>
+                                    <li>-Copie certifiée conforme des Statuts de la société + PV récent de l’assemblée générale.</li>
+                                    <li>-Copie certifiée conforme du Registre de commerce (1).</li>
+                                    <li>-Copie certifiée conforme de la Carte d’identité Nationale : CIN de l’exportateur ou du gérant de la société.</li>
+                                    <li>-Attestation récente d’inscription à la patente(2).</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="text"> -->
+                            <!-- <p>Our process begins with you, and a discussion with our certified in-house designers. From there we can determine how to craft the perfect outdoor scene to complement. uptatem accusantium dolore mque laudantium, totam rem uptatem accusantium dolore mque laudantium.</p> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+
+    <!-- Contact Page -->
+    <h2 style="text-align:center;margin-bottom: 35px;">Contactez-nous</h2>
+    <div class="contact-page" style="background: url(images/foret.jpg); background-size: cover;background-position: center">
+
+        <div class="container">
+            <h3 class="hidden">Contact</h3>
+            <form id="contact_form" name="contact_form" action="#" method="post">
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <input type="text" id="cf-name" name="cf-name" class="form-control" value="" placeholder="Nom*" required="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <input type="text" id="cf-firstname" name="cf-firstname" class="form-control" value="" placeholder="prénom*" required="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <input type="email" id="cf-email" name="cf-email" class="form-control" value="" placeholder="Email" required="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <input type="text" id="cf-subject" name="cf-subject" class="form-control" value="" placeholder="Sujet" required="">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="cf-message" name="cf-message" class="form-control required" placeholder=" Ecrivez votre message. . ."></textarea>
+                        </div>
+                        <div class="form-group form-bottom">
+                            <button class="btn-one" type="submit" id="cf-submit" name="submit" data-loading-text="Please wait...">Envoyez votre message</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact Page -->
+
+    <!--Client Logo Section-->
+    <section class="clients-logo">
+        <div class="container">
+            <h3 class="hidden">Clients</h3>
+            <div class="sponsors-slider">
+                <div class="sponsors-logo">
+                    <figure>
+                        <img src="images/clients/1.png" alt="">
+                    </figure>
+                </div>
+                <div class="sponsors-logo">
+                    <figure>
+                        <img src="images/clients/2.png" alt="">
+                    </figure>
+                </div>
+                <div class="sponsors-logo">
+                    <figure>
+                        <img src="images/clients/3.png" alt="">
+                    </figure>
+                </div>
+                <div class="sponsors-logo">
+                    <figure>
+                        <img src="images/clients/4.png" alt="">
+                    </figure>
+                </div>
+                <div class="sponsors-logo">
+                    <figure>
+                        <img src="images/clients/5.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Client Logo Section-->
+
+
+    <!--Footer Section-->
+  <!--End Project Details-->
+  <footer class="main-footer">
+     <div class="footer-top">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                 <div class="about-widget">
+                    <div class="footer-title">
+                       <h6>Adresse</h6>
+                    </div>
+                    <p>Pour nous joindre.</p>
+                    <ul class="contact-links">
+                       <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">contact@cci-gabon.com</a></li>
+                       <li><i class="fa fa-mobile" aria-hidden="true"></i>+241-01-72-20-64</li>
+
+                    </ul>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                 <div class="service-widget">
+                    <div class="footer-title">
+                       <h6>PROFIL</h6>
+                    </div>
+                    <ul class="menu-link">
+                       <li><a href="project-details.html">Entreprises</a></li>
+                       <li><a href="project-details.html">Investisseurs</a></li>
+                       <li><a href="project-details.html">Jeunes diplomes</a></li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                 <div class="footer-title">
+                    <h6>NEWSLETTER</h6>
+                 </div>
+                 <div class="gallery-widget">
+                    <form class="form-inline">
+                       <div class="form-group mx-sm-3 mb-2">
+                          <label for="inputPassword2" class="sr-only"></label>
+                          <input type="email" class="form-control" id="inputPassword2" placeholder="Addresse email">
+                       </div>
+                       <button type="submit" class="btn btn-success mb-2">Confirmer</button>
+                    </form>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="footer-bottom text-center">
+        <div class="container">
+           <p>Copyrights &copy; 2018 <a href="index.html">Sunteam -ecole {241}</a>. All Rights Reserved.</p>
+        </div>
+     </div>
+  </footer>
+    <!--End Footer Section-->
+
+
+</div>
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-angle-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

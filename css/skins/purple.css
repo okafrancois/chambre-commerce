@@ -1,0 +1,95 @@
+/*
+Color styles
+ ----------------------------------------*/
+
+.main-menu .navigation > li.current a,
+.main-menu .navbar-collapse > .navigation > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li > a:active,
+.main-menu .navbar-collapse > .navigation > li > a:focus,
+.main-menu .navbar-header .navbar-toggle,
+.main-menu .navbar-collapse > .navigation > li.current > a,
+.main-menu .navigation > li > ul > li,
+.main-menu .navigation > li > ul > li > a,
+.main-menu .navigation > li > a:hover,
+.nav-icon-wrap .search-wrap i,
+.s-hero-area .single-slider .btn,
+.s-hero-area .owl-controls .owl-dots .owl-dot.active span,
+.section-title h3:before,
+.btn-one,
+.gallery-section .filters li,
+.team-wrapper .team-content-holder::before,
+.team-wrapper .team-content-holder::before,
+.scroll-to-top,
+.about-style-2 .company .nav li a:focus,
+.about-style-2 .company .nav li.active a,
+.counter-style-2 .fact-counter .item,
+.pricing-bg.active,
+.projects .overlay-2,
+.styled-pagination li a:hover, 
+.styled-pagination li a.active,
+.contact-info .item .icon-box i,
+.search-form input[type="submit"]:hover{
+	background: #8C489F;
+}
+.gallery-section .images-overly,
+.footer-top .lightbox-image{
+    background: rgba(140, 72, 159, 0.84);
+}
+.gallery-section .filters li:hover,
+.gallery-section .filters li.active,
+.gallery-section .filters li:hover:after,
+.gallery-section .filters li.active:after{
+	background: #643471;
+}
+.header-top .right-side .item .icon-box,
+.main-menu .navigation > li > ul > li,
+.s-hero-area .single-slider .btn,
+.btn-one,
+.btn-one:hover,
+.scroll-to-top,
+.styled-pagination li a:hover, 
+.styled-pagination li a.active,
+.blog-section.blog-single blockquote,
+.search-form input[type="search"]:focus,
+.contact-page .form-group input:focus, 
+.contact-page .form-group textarea:focus{
+	border-color:#8C489F;
+}
+.about-style-2 .company .nav li.active:after{
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #8C489F;
+}
+a,
+.header-top-bar .header-top-social a:hover,
+.header-top .right-side .item .icon-box i:before,
+.main-menu .navigation > li > ul > li > a:hover,
+.s-hero-area .slide-text h1 span,
+.section-title h3 span,
+.about-section .icon-holder .icon-box i:before,
+.service-section .item-holder .icon-box i:before,
+.service-section .item-holder h6:hover,
+.counter-section .counter-outer .count-outer,
+.blog-section .images-text p span,
+.footer-top .contact-links li a,
+.footer-top .contact-links li,
+.footer-bottom p a,
+.page-title li,
+.service-details .service-testimonials strong,
+.projects .overlay-button a i,
+.project-details .project-testimonials strong,
+.right-side .categories-menu li a:hover,
+.right-side .blog-tweets .item i,
+.blog-section.blog-single .comment-area li a,
+.btn-one:hover{
+	color: #8C489F ;
+}
+
+.navbar-header a:focus,
+.navbar-header a:active{
+	background: transparent!important;
+}
+
+.logo {
+	background: url("../../images/logo3.png");
+}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>CCAIMAG |Forum</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+   <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,400%7cCourgette%7cRoboto:400,500,700%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/responsive.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/skins/green.css">
+   <style media="screen">
+      body {
+    color: #555;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.7;
+    position: relative;
+}
+      .preloader h1{
+     text-align: center;
+     padding: 10%;
+   }
+   .image-box img {
+     height: 450px;
+     width: 100px;
+     display: block;
+     overflow: hidden;
+   }
+   .sponsors-logo img{
+     width: 130px;
+     height: 100px;
+   }
+   .btn-primary{
+     background-color: #38b51f;
+   }
+   .btn{
+     width: 100px;
+     border-radius: 1px;
+   }
+   .form-control{
+     border-radius: 1px;
+   }
+
+</style>
+
+</head>
+
+<body>
+   <div class="page-wrapper">
+      <div class="page-wrapper">
+         <div class="preloader">
+            <h1>LA CHAMBRE DE COMMERCE<br>DU GABON</h1>
+         </div>
+               <div class="header-top-bar">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-2">
+                           <div class="login">
+                              <ul>
+                                 <li class="top-li"><a id="llogin" href="contact.html"><span class="ti-unlock">Nous contacter</span></a></li>
+                                 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                       <div class="modal-content">
+                                              <div class="dialog-inner">
+                                                 <form action="" method="post" class="account login-form">
+                                                    <fieldset>
+                                                       <h2 class="text-center">Espace membre</h2>
+                                                       <p><input type="text" class="form-control" name="email" id="user_login" placeholder="Adresse Email *" required="" autocomplete="off"></p>
+                                                       <input type="hidden" name="_token" value="In22gJGSlSDpbYOaySW1nOa72ViA5rWfvoByM1J6">
+                                                       <p><input type="password" class="form-control" name="password" id="user_pass" placeholder="Mot de passe *" required="" autocomplete="off"></p>
+                                                       <p class="text-center">
+                                                          <button class="button" type="submit"><a href="actus.html">Me connecter</a></button>
+                                                       </p>
+                                                       <hr>
+                                                       <p class="text-center">Pas encore membre ? <a href="inscription.html#">Inscrivez-vous dès maitenant.</a></p>
+                                                    </fieldset>
+                                                 </form>
+                                              </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-2">
+                           <div class="login">
+                              <ul>
+                                 <li class="top-li"><a href="forum.html"><span class="ti-unlock">Forum</span></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="nav-icon-wrap">
+                              <div class="search-wrap"> <i class="fa fa-search"></i>
+                                 <div class="search-form-wrap">
+                                    <form class="search-form"> <input type="search" name="search" value="" placeholder="Search..."> <input type="submit" name="submit" value="Search"></form>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-2">
+                           <div class="header-top-social text-center"> <a href="https://www.facebook.com/ccaimagabon/"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         <section class="header-top">
+            <div class="container clearfix">
+               <div class="left-side pull-left">
+                  <div class="logo"><img src="images/logo.jpg" alt=""></div>
+               </div>
+               <ul class="right-side pull-right clearfix row">
+                 <li class="item"  id="connect" class="adhesion" data-login="loginDialog">
+                  <a class="adhesion" ><i class="fa fa-user"></i><span class="ti-unlock" data-toggle="modal" data-target=".bd-example-modal-lg">Espace adhérents</span></a>
+                 </li>
+                  <li class="item" id="addto" class="adhesion" data-login="loginDialog">
+                   <a href="adhesion.html"><i class="fa fa-user"></i><span class="ti-unlock">Adhérer</span></a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <header class="main-header sticky-header">
+            <div class="container clearfix">
+               <nav class="main-menu">
+                  <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div>
+                  <div class="navbar-collapse collapse clearfix">
+                     <ul class="navigation clearfix">
+                        <li class="current"><a href="index.html">Accueil</a>
+                        </li>
+                        <li class="dropdown"><a href="service.html">La CCAIMAG</a>
+                           <ul>
+                              <li><a href="presentation.html">Présentations</a></li>
+                              <li><a href="#">Missions</a></li>
+                              <li><a href="http://www.ccima.cm/phocadownload/organigramme%20schmatique%20ccima.pdf" target="_blank">Organigramme</a></li>
+                              <li><a href="mediatheque.html">Mediatheque</a></li>
+                           </ul>
+                        </li>
+                        </li>
+                        <li class="dropdown"><a href="about.html">Services</a>
+                           <ul>
+                              <li><a href="#">Assistance</a></li>
+                              <li><a href="service.html">Projet BSTPG</a></li>
+                              <li><a href="#">Projet CGA.GA</a></li>
+                              <li><a href="#">Projet CAMCGA</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Espace vente</a>
+                          <ul>
+                            <li><a href="espace.html">Espaces a louer</a></li>
+                            <li><a href="ceo.html">Certificat d'origine</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Profils</a>
+                           <ul>
+                              <li><a href="actus.html">Entreprises</a></li>
+                              <li><a href="#">Jeunes diplomes</a></li>
+                           </ul>
+                        </li>
+                        <li class="dropdown"><a href="blog.html">Investir au Gabon</a>
+                           <ul>
+                              <li><a href="#">Le Gabon en bref</a></li>
+                              <li><a href="#">Environnement juridique</a></li>
+                              <li><a href="#">Procédures import/export</a></li>
+                              <li><a href="#">Documentation</a></li>
+                              <li><a href="database.html">Base de données</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="actus.html">Actualités</a></li>
+                         <li class="dropdown"><a href="#">Notre reseau</a>
+                            <ul>
+                              <li><a href="#">ANPI</a></li>
+                              <li><a href="#">Chambres de commerce internationales</a></li>
+                              <li><a href="#">Ministeres du commerce</a></li>
+                              <li><a href="#">ONG</a></li>
+                            </ul>
+                         </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </header>
+      <!--End Main Header ---------------------------------------->
+      <!--Page Title--------------------------------------------->
+      <section class="s-hero-area " id="section">
+         <div class="slider-one">
+            <div class="single-slider" style="background-image:url('images/chantier.jpg'); background-size: 100%;">
+               <div class="back">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                           <div class="slide-text">
+                              <h1>Défendre les intérêts des entreprises gabonaises. </h1>
+                              <div class="slider-contenAngéla ADIBET, associée - directrice générale de Deloitte #Gabon animera un petit-déjeuner lors duquel elle partagera son expérience et échangera avec les entrepreneurs le vendredi 18 Janvier 2019 à l'Espace PME
+                               de 8h30 à 10h00t-box">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="single-slider" style="background-image:url('images/event.jpg')">
+               <div class="back">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-10 col-sm-12 col-xs-12">
+                           <div class="slide-text">
+                              <div class="slide-text">
+                                 <h1>Croire aux affaires? Depuis plus de 80 ans, nous nous engageons à aider
+                                    les petites et grandes entreprises gabonaises à réussir..</h1>
+                                 <div class="slider-content-box">
+                                 </div>
+                                 <div class="slide-btn">
+                                    <a href="contact.html" class="btn primary">Contactez nous</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="single-slider" style="background-image:url('images/addspace.jpg'); background-size:cover;">
+               <div class="back">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                           <div class="slide-text">
+                              <h1>La CCAIMAG 1er accélérateur des entreprises au Gabon </span></h1>
+                              <div class="slider-content-box">
+                                 <p></p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+      </section>
+      <!--End Page Title--------------------------------------->
+      <!--Blog Section-->
+      <section class="blog-section blog-single">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-9 col-sm-12 col-xs-12">
+                  <div class="left-side">
+                     <div class="item-holder">
+                        <div class="image-box">
+                           <figure>
+                              <img src="images/addspace.jpg" alt="">
+                           </figure>
+                        </div>
+                        <div class="images-text">
+                           <h6> le projet BSGTP (Bourse de Sous-Traitance et de Partenariat du Gabon)
+                           </h6>
+                           <p>Publier<span>14 Fevrier 2019</span> par <a href="#">CCAIMAG</a></p>
+                           <p>Fruit d’un partenariat public-privé,la Bourse de sous-traitance et de partenariat du Gabon(BSTPG) a été créée le
+                              décembre 2014, à l’issue de son assemblée générale constitutive,sous la forme d’une association reconnue d’utilité publique et dénommée Bourse de Sous-Traitance et de Partenariat du Gabon>>.
+                           </p>
+                           <p>Ses missions principales sont de:Promouvoir et développer des pôles de sous-traitance et de partenaires dans les différents secteurs industriels;
+                              Renforcer la participation des nationaux aux activités de production de biens et de services via le renforcement de .
+                           </p>
+                           <div class="link-btn"> <a href="#" class="btn-one">Voir plus</a></div>
+                           <ul class="social-links">
+                              <li><strong>Partager</strong></li>
+                              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="comment-area">
+                        <h5>COMMENTAIRES</h5>
+                        <div class="item">
+                           <div class="image-box">
+                              <figure>
+                                 <img src="images/blog/3.png" alt="">
+                              </figure>
+                           </div>
+                           <ul class="reply-btn">
+                              <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i>Repondre</a></li>
+                           </ul>
+                           <h6>SHANE</h6>
+                           <p>Tout mes encouragement a la CCAIMAG. Ce projet va changer la vie des gabonais.</p>
+                        </div>
+                        <div class="item">
+                           <div class="image-box">
+                              <figure>
+                                 <img src="images/blog/4.png" alt="">
+                              </figure>
+                           </div>
+                           <ul class="reply-btn">
+                              <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i>Repondre</a></li>
+                           </ul>
+                           <h6>YANNICK</h6>
+                           <p>J'ai fait l'experience de cette initiative de la CCAIMAG, et je suis vraiment satisfait.</p>
+                        </div>
+                        <div class="item">
+                           <div class="image-box">
+                              <figure>
+                                 <img src="images/blog/5.png" alt="">
+                              </figure>
+                           </div>
+                           <ul class="reply-btn">
+                              <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i>Repondre</a></li>
+                           </ul>
+                           <h6>CHARLINE</h6>
+                           <p>Tout mes encouragement.</p>
+                        </div>
+                     </div>
+                     <div class="post-comment">
+                        <h5>ECRIRE UN COMMENTAIRE</h5>
+                        <form id="contact_form" name="contact_form" action="#" method="post">
+                           <div class="row clearfix">
+                              <div class="col-md-6 col-sm-12 col-xs-12">
+                                 <div class="form-group">
+                                    <input type="text" name="Name" class="form-control" value="" placeholder="Nom" required="">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="email" name="Phone Number" class="form-control" value="" placeholder="Numero de telephone" required="">
+                                 </div>
+                              </div>
+                              <div class="col-md-6 col-sm-12 col-xs-12">
+                                 <div class="form-group">
+                                    <input type="text" name="Email" class="form-control" value="" placeholder="Email" required="">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="text" name="Subject" class="form-control" value="" placeholder="Sujet" required="">
+                                 </div>
+                              </div>
+                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                 <div class="form-group">
+                                    <textarea name="form_message" class="form-control textarea required" placeholder="Message"></textarea>
+                                 </div>
+                                 <div class="form-group">
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                    <button class="btn-one" type="submit" data-loading-text="Please wait...">envoyer message</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-12 col-xs-12">
+                  <div class="right-side">
+                     <form action="#" class="search-box">
+                        <input type="text" placeholder="Zone de recherche">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                     </form>
+                     <div class="categories-menu">
+                        <div class="sec-title">
+                           <h6>Secteurs</h6>
+                        </div>
+                        <ul>
+                           <li><a href="#">Agriculture<span>+</span></a></li>
+                           <li><a href="#">Industries<span>+</span></a></li>
+                           <li><a href="#">Sante<span>+</span></a></li>
+                           <li><a href="#">Education<span>+</span></a></li>
+                           <li><a href="#">Technologie<span>+</span></a></li>
+                        </ul>
+                     </div>
+
+
+                     <div class="blog-tweets">
+                        <div class="sec-title">
+                           <h6>Post recents</h6>
+                        </div>
+                        <div class="item">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <h6>La chambre de commerce du Senegal a poster sur le compte de la CCAIMAG .<br> Les resultats sont satisfaisant.</h6>
+                           <span>15 Heures</span>
+                        </div>
+                        <div class="item">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <h6>La chambre de commerce de Lyon a identifier la CCAIMAG.<br> Plusieurs commentaires a l'appui.</h6>
+                           <span>7 Heures</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--End Blog Section-->
+
+      <footer class="main-footer">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="about-widget">
+                        <div class="footer-title">
+                           <h6>Adresse</h6>
+                        </div>
+                        <p>Pour nous joindre.</p>
+                        <ul class="contact-links">
+                           <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">contact@cci-gabon.com</a></li>
+                           <li><i class="fa fa-mobile" aria-hidden="true"></i>+241-01-72-20-64</li>
+
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="service-widget">
+                        <div class="footer-title">
+                           <h6>PROFIL</h6>
+                        </div>
+                        <ul class="menu-link">
+                           <li><a href="project-details.html">Entreprises</a></li>
+                           <li><a href="project-details.html">Investisseurs</a></li>
+                           <li><a href="project-details.html">Jeunes diplomes</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-xs-12">
+                     <div class="footer-title">
+                        <h6>NEWSLETTER</h6>
+                     </div>
+                     <div class="gallery-widget">
+                        <form class="form-inline">
+                           <div class="form-group mx-sm-3 mb-2">
+                              <label for="inputPassword2" class="sr-only"></label>
+                              <input type="email" class="form-control" id="inputPassword2" placeholder="Addresse email">
+                           </div>
+                           <button type="submit" class="btn btn-success mb-2">Confirmer</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom text-center">
+            <div class="container">
+               <p>Copyrights &copy; 2018 <a href="index.html">Sunteam -ecole {241}</a>. All Rights Reserved.</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-angle-up"></span></div>
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.fancybox.pack.js"></script>
+   <script src="js/jquery.fancybox-media.js"></script>
+   <script src="js/isotope.js"></script>
+   <script src="js/imagesloaded.pkgd.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/validate.js"></script>
+   <script src="js/wow.js"></script>
+   <script src="js/jquery.counterup.min.js"></script>
+   <script src="js/waypoints.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
